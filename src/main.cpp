@@ -461,10 +461,6 @@ int main(int argc, char **argv){
     auto component_tlfc4 = new Ra::Engine::Scene::TriangleMeshComponent("Table Leg Foot Cylinder 4 Mesh", entity_tlfc4, std::move(tlfc4), nullptr);
 
 
-
-    // cd Billard/build-release make
-    // cd Billard/build-release/src ./Billard
-
     //! [Create a geometry component with the balls]
     auto ball_radius = 0.075f;
     auto ball_height = ball_radius+thickness;
